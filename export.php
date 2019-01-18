@@ -5,7 +5,9 @@
 Lifetype JSON Export
 
 Create a JSON representation of all of the blog posts inside a lifetype
-blog, for backups or import to another blog engine
+blog, for backups or import to another blog engine.
+
+This script can be placed in the LifeType root directory.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
