@@ -61,7 +61,7 @@ function FormatArticle($articleObject) {
 	$article['title'] = $articleObject->getTopic();
 	$article['body'] = $articleObject->getText();
 	$article['categories'] = array_map('FormatCategory', $articleObject->getCategories());
-	$article['comments'] = array_map('FormatComments', $articleObject->getComments());
+	$article['comments'] = array_map('FormatComment', $articleObject->getComments());
 
 	return $article;
 }
