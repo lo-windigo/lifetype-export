@@ -60,6 +60,7 @@ function FormatArticle($articleObject) {
 	$article['id'] = $articleObject->getId();
 	$article['title'] = $articleObject->getTopic();
 	$article['body'] = $articleObject->getText();
+	$article['date'] = $articleObject->getDate();
 	$article['categories'] = array_map('FormatCategory', $articleObject->getCategories());
 	$article['comments'] = array_map('FormatComment', $articleObject->getComments());
 
